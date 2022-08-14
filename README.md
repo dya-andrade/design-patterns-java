@@ -1,2 +1,39 @@
-# Arquitetura-DesignProjetos
-Padrões de projetos como SOLID, Design Patterns, TDD, BDD e Clean Architecture.
+#Arquitetura e Design Projetos
+<h2>Padrões de projetos como SOLID, Design Patterns, TDD, BDD e Clean Architecture.</h2>
+
+<h1>SOLID</h1>
+
+- Coesão:
+<p>Uma classe coesa faz bem uma única coisa.
+Classes coesas não devem ter várias responsabilidades.</p>
+
+- Encapsulamento:
+<p>Getters e setters não são formas eficientes de aplicar encapsulamento.
+É interessante fornecer acesso apenas ao que é necessário em nossas classes.
+O encapsulamento torna o uso das nossas classes mais fácil e intuitivo.<p>
+
+- Acoplamento:
+<p>Acoplamento é a dependência entre classes.
+Acoplamento nem sempre é ruim, e que é impossível criar um sistema sem nenhum acoplamento.
+Devemos controlar o nível de acoplamento na nossa aplicação.</p>
+
+##Single Responsibility Principle 
+- uma classe deve ter um e apenas um motivo para ser alterada.
+- Que classes/métodos/funções/módulos devem ter uma única responsabilidade bem definida.
+
+##Open Closed 
+- um sistema deve ser aberto para a extensão, mas fechado para a modificação.
+- Que cada classe deve conhecer e ser responsável por suas próprias regras de negócio.
+
+##Liskov Substitution Principle 
+- Devemos poder substituir classes base por suas classes derivadas em qualquer lugar, sem problema (composição e herança).
+- Que, embora a herança favoreça o reaproveitamento de código, ela pode trazer efeitos colaterais quando não utilizada da maneira correta.
+
+##Interface Segregation Principle 
+- Diz que implementações devem depender de abstrações e abstrações não devem depender de implementações. 
+- Que as interfaces são menos propensas a sofrer mudanças enquanto implementações podem mudar a qualquer momento. 
+
+##Dependency Inversion Principle 
+- Que as interfaces devem definir apenas os métodos que fazem sentido para seu contexto. 
+- Diz que uma classe não deve ser obrigada a implementar um método que ela não precisa
+
