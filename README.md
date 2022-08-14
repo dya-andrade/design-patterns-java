@@ -18,23 +18,23 @@ O encapsulamento torna o uso das nossas classes mais fácil e intuitivo.<p>
 Acoplamento nem sempre é ruim, e que é impossível criar um sistema sem nenhum acoplamento.
 Devemos controlar o nível de acoplamento na nossa aplicação.</p>
 
-<h4>#Single Responsibility Principle</h4> 
+<h3>#Single Responsibility Principle</h3> 
 - uma classe deve ter um e apenas um motivo para ser alterada.
 - Que classes/métodos/funções/módulos devem ter uma única responsabilidade bem definida.
 
-<h4>#Open Closed</h4> 
+<h3>#Open Closed</h3> 
 - um sistema deve ser aberto para a extensão, mas fechado para a modificação.
 - Que cada classe deve conhecer e ser responsável por suas próprias regras de negócio.
 
-<h4>#Liskov Substitution Principle</h4> 
+<h3>#Liskov Substitution Principle</h3> 
 - Devemos poder substituir classes base por suas classes derivadas em qualquer lugar, sem problema (composição e herança).
 - Que, embora a herança favoreça o reaproveitamento de código, ela pode trazer efeitos colaterais quando não utilizada da maneira correta.
 
-<h4>#Interface Segregation Principle</h4> 
+<h3>#Interface Segregation Principle</h3> 
 - Diz que implementações devem depender de abstrações e abstrações não devem depender de implementações. 
 - Que as interfaces são menos propensas a sofrer mudanças enquanto implementações podem mudar a qualquer momento. 
 
-<h4>#Dependency Inversion Principle</h4> 
+<h3>#Dependency Inversion Principle</h3> 
 - Que as interfaces devem definir apenas os métodos que fazem sentido para seu contexto. 
 - Diz que uma classe não deve ser obrigada a implementar um método que ela não precisa
 
