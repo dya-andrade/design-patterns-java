@@ -1,5 +1,6 @@
-#Arquitetura e Design Projetos
-<h2>Padrões de projetos como SOLID, Design Patterns, TDD, BDD e Clean Architecture.</h2>
+<h1>Arquitetura e Design Projetos</h1>
+
+<p>Padrões de projetos como SOLID, Design Patterns, TDD, BDD e Clean Architecture.</p>
 
 <h1>SOLID</h1>
 
@@ -17,23 +18,45 @@ O encapsulamento torna o uso das nossas classes mais fácil e intuitivo.<p>
 Acoplamento nem sempre é ruim, e que é impossível criar um sistema sem nenhum acoplamento.
 Devemos controlar o nível de acoplamento na nossa aplicação.</p>
 
-##Single Responsibility Principle 
+<4>##Single Responsibility Principle</4> 
 - uma classe deve ter um e apenas um motivo para ser alterada.
 - Que classes/métodos/funções/módulos devem ter uma única responsabilidade bem definida.
 
-##Open Closed 
+<4>##Open Closed</4> 
 - um sistema deve ser aberto para a extensão, mas fechado para a modificação.
 - Que cada classe deve conhecer e ser responsável por suas próprias regras de negócio.
 
-##Liskov Substitution Principle 
+<4>##Liskov Substitution Principle</4> 
 - Devemos poder substituir classes base por suas classes derivadas em qualquer lugar, sem problema (composição e herança).
 - Que, embora a herança favoreça o reaproveitamento de código, ela pode trazer efeitos colaterais quando não utilizada da maneira correta.
 
-##Interface Segregation Principle 
+<4>##Interface Segregation Principle</4> 
 - Diz que implementações devem depender de abstrações e abstrações não devem depender de implementações. 
 - Que as interfaces são menos propensas a sofrer mudanças enquanto implementações podem mudar a qualquer momento. 
 
-##Dependency Inversion Principle 
+<4>##Dependency Inversion Principle</4> 
 - Que as interfaces devem definir apenas os métodos que fazem sentido para seu contexto. 
 - Diz que uma classe não deve ser obrigada a implementar um método que ela não precisa
+
+</hr>
+
+<h1>DESIGN PATTERNS I</h1>
+
+ <p>COMPORTAMENTAIS de Gang of Four (GoF)<p>
+
+* Strategy: 
+diminuir a complexidade do nosso código, trocando múltiplas condicionais por classes. É um padrão de design comportamental que permite definir uma família de algoritmos, colocar cada um deles em uma classe separada e tornar seus objetos intercambiáveis.
+
+* Chain of Responsibility: use o padrão quando for essencial executar vários manipuladores em uma ordem específica, e a diferenciar casos onde padrões semelhantes podem ser aplicados. É um padrão de design comportamental que permite passar solicitações ao longo de uma cadeia de manipuladores. Ao receber uma solicitação, cada manipulador decide processar a solicitação ou passá-la para o próximo manipulador da cadeia.
+
+* Template Method: criação de um método concreto na classe “mãe”, que chama métodos abstratos implementados nas classes “filhas”. É um padrão de design comportamental que define o esqueleto de um algoritmo na superclasse, mas permite que as subclasses substituam etapas específicas do algoritmo sem alterar sua estrutura.
+
+* State: se o resultado de uma chamada de método depende do estado, podemos delegar esta ação para uma classe específica do estado atual. É um padrão de design comportamental que permite que um objeto altere seu comportamento quando seu estado interno muda. "Parece que o objeto mudou de classe".
+
+*Command e Command Handler: que um caso de uso em nossa aplicação pode ter várias ações (salvar no banco, enviar e-mail, etc); que um caso de uso deve ser extraído para uma classe específica, ao invés de estar no arquivo da CLI, controller ou algo do tipo.
+É um padrão de design comportamental que transforma uma solicitação em um objeto autônomo que contém todas as informações sobre a solicitação.
+
+*Observer: que é mais interessante separar cada ação em uma classe separada. 
+Definir um mecanismo de assinatura para notificar vários objetos sobre quaisquer eventos que ocorram com o objeto que estão observando.
+
 
