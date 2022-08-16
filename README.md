@@ -54,9 +54,9 @@ Devemos controlar o nível de acoplamento na nossa aplicação.</p>
 
 </hr>
 
-<h1>DESIGN PATTERNS I</h1>
+<h1>DESIGN PATTERNS I (Comportamentais)</h1>
 
- <p>COMPORTAMENTAIS de Gang of Four (GoF)<p>
+ <p>Gang of Four (GoF)<p>
 
 <h3>#Strategy</h3> 
 
@@ -100,4 +100,9 @@ Devemos controlar o nível de acoplamento na nossa aplicação.</p>
 
 - Definir um mecanismo de assinatura para notificar vários objetos sobre quaisquer eventos que ocorram com o objeto que estão observando.
 
+</hr>
+
+<h1>DESIGN PATTERNS II (Estruturais)</h1>
+
+ <p>Gang of Four (GoF)<p>
 
