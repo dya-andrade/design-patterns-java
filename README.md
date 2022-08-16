@@ -1,6 +1,6 @@
 <h1>Arquitetura e Design Projetos</h1>
 
-<p>Padrões de projetos como SOLID, Design Patterns, TDD, BDD e Clean Architecture.</p>
+<p>Padrões de projetos com SOLID, Design Patterns e Clean Architecture.</p>
 
 <h1>SOLID</h1>
 
