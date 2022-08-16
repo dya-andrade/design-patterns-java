@@ -100,6 +100,8 @@ Devemos controlar o nível de acoplamento na nossa aplicação.</p>
 
 - Definir um mecanismo de assinatura para notificar vários objetos sobre quaisquer eventos que ocorram com o objeto que estão observando.
 
+</br>
+
 </hr>
 
 <h1>DESIGN PATTERNS II (Estruturais)</h1>
