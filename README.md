@@ -1,4 +1,4 @@
-<h1>Design de Projetos</h1>
+<h1>Design de Patterns</h1>
 
 <p>Padrões de projetos com SOLID e Design Patterns.</p>
 
