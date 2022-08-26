@@ -112,6 +112,11 @@ Devemos controlar o nível de acoplamento na nossa aplicação.</p>
 
 - Quando precisamos utilizar código legado ou código de componentes externos em nosso sistema. 
 
-- Use a classe Adapter quando quiser usar alguma classe existente, mas sua interface não for compatível com o restante do seu código.
+- Use a classe Adapter quando quiser usar alguma classe existente, e sua interface não for compatível com o restante do seu código.
 
+ 
+ <h3>#DECORATOR</h3> 
 
+- Permite anexar novos comportamentos a objetos colocando esses objetos dentro de uma class abstract que contêm os novos comportamentos. 
+
+- Use o padrão Decorator quando precisar atribuir comportamentos extras a objetos em tempo de execução sem quebrar o código que usa esses objetos.
