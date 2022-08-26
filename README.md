@@ -108,27 +108,27 @@ Devemos controlar o nível de acoplamento na nossa aplicação.</p>
 
  <p>Gang of Four (GoF)<p>
  
- <h3>#ADAPTER</h3> 
+ <h3>#Adapter</h3> 
 
 - Quando precisamos utilizar código legado ou código de componentes externos em nosso sistema. 
 
 - Use a classe Adapter quando quiser usar alguma classe existente, e sua interface não for compatível com o restante do seu código.
 
  
- <h3>#DECORATOR</h3> 
+ <h3>#Decorator</h3> 
 
 - Permite anexar novos comportamentos a objetos colocando esses objetos dentro de uma class abstract que contêm os novos comportamentos. 
 
 - Use o padrão Decorator quando precisar atribuir comportamentos extras a objetos em tempo de execução sem quebrar o código que usa esses objetos.
 
 
- <h3>#COMPOSITE</h3> 
+ <h3>#Composite</h3> 
 
 - É um padrão de projeto estrutural que permite compor objetos em estruturas de árvore e, em seguida, trabalhar com essas estruturas como se fossem objetos individuais. 
 
 - Use o padrão Composite quando precisar implementar uma estrutura de objeto semelhante a uma árvore.
 
- <h3>#FACADE</h3> 
+ <h3>#Facade</h3> 
 
 - Em determinados casos, nós podemos precisar de um acesso simplificado a uma parte complexa ou grande do nosso sistema, como autenticação, acesso a sistema de arquivos, cache, etc. Uma classe de fachada, contendo apenas a funcionalidade desejada, pode ser bastante útil. 
 
