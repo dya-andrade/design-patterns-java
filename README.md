@@ -107,4 +107,11 @@ Devemos controlar o nível de acoplamento na nossa aplicação.</p>
 <h1>DESIGN PATTERNS II (Estruturais)</h1>
 
  <p>Gang of Four (GoF)<p>
+ 
+ <h3>#ADAPTER</h3> 
+
+- Quando precisamos utilizar código legado ou código de componentes externos em nosso sistema. 
+
+- Use a classe Adapter quando quiser usar alguma classe existente, mas sua interface não for compatível com o restante do seu código.
+
 
