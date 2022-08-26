@@ -127,3 +127,9 @@ Devemos controlar o nível de acoplamento na nossa aplicação.</p>
 - É um padrão de projeto estrutural que permite compor objetos em estruturas de árvore e, em seguida, trabalhar com essas estruturas como se fossem objetos individuais. 
 
 - Use o padrão Composite quando precisar implementar uma estrutura de objeto semelhante a uma árvore.
+
+ <h3>#FACADE</h3> 
+
+- Em determinados casos, nós podemos precisar de um acesso simplificado a uma parte complexa ou grande do nosso sistema, como autenticação, acesso a sistema de arquivos, cache, etc. Uma classe de fachada, contendo apenas a funcionalidade desejada, pode ser bastante útil. 
+
+- Use o padrão Facade quando precisar ter uma interface limitada, mas direta, para um subsistema complexo.
