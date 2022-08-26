@@ -120,3 +120,10 @@ Devemos controlar o nível de acoplamento na nossa aplicação.</p>
 - Permite anexar novos comportamentos a objetos colocando esses objetos dentro de uma class abstract que contêm os novos comportamentos. 
 
 - Use o padrão Decorator quando precisar atribuir comportamentos extras a objetos em tempo de execução sem quebrar o código que usa esses objetos.
+
+
+ <h3>#COMPOSITE</h3> 
+
+- É um padrão de projeto estrutural que permite compor objetos em estruturas de árvore e, em seguida, trabalhar com essas estruturas como se fossem objetos individuais. 
+
+- Use o padrão Composite quando precisar implementar uma estrutura de objeto semelhante a uma árvore.
