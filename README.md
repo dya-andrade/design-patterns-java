@@ -133,3 +133,10 @@ Devemos controlar o nível de acoplamento na nossa aplicação.</p>
 - Em determinados casos, nós podemos precisar de um acesso simplificado a uma parte complexa ou grande do nosso sistema, como autenticação, acesso a sistema de arquivos, cache, etc. Uma classe de fachada, contendo apenas a funcionalidade desejada, pode ser bastante útil. 
 
 - Use o padrão Facade quando precisar ter uma interface limitada, mas direta, para um subsistema complexo.
+
+<h3>#Proxy</h3> 
+
+- Um proxy controla o acesso ao objeto original, permitindo que você execute algo antes ou depois que a solicitação chegar ao objeto original. 
+
+- Inicialização lenta (proxy virtual). É quando você tem um objeto de serviço pesado que desperdiça recursos do sistema por estar sempre ativo, mesmo que você só precise dele de vez em quando. 
+- Solicitações de registro (proxy de registro). É quando você deseja manter um histórico de solicitações para o objeto de serviço.
