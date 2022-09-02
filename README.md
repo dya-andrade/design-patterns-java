@@ -2,6 +2,10 @@
 
 <p>Padrões de projetos com SOLID e Design Patterns.</p>
 
+<p>Sugestão de estudo sobre Clean Code:</p>
+<p>https://balta.io/artigos/clean-code</p>
+<p>https://youtu.be/rkzviFgf6P0</p>
+
 <h1>SOLID</h1>
 
 - Coesão:
